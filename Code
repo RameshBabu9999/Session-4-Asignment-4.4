@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Animation</title>
+<style>
+div img{
+	width:250px;
+	height:250px;
+	border: 2px solid black;
+	position:relative;
+	display:inline-block;
+	/*This code can be written in shorthand as bicycle 5s linear infinite*/
+	animation-name: bicycle;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	animation-iteration-count:infinite;
+}
+/*The @keyframes rule specifies the animation code.*/
+@keyframes bicycle{
+	from {left: 0px;}
+    to {left: 500px;}
+}
+</style>
+</head>
+<body>
+<h1>Road to Success:</h1>
+<div>
+<img src="https://cdn.shopify.com/s/files/1/0232/3305/products/state_bicycle_fixie_fixed_gear_contender_1.jpg?v=1473671917">
+</div>
+</body>
+</html>
